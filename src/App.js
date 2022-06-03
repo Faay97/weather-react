@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Hello World</h1>
-        <Weather city="Toronto" />
+        <h1 className="mb-5">Weather App</h1>
+
+        <Weather />
         <footer>
           This project was coded by Favour Umoru and is open-sourced on
           <a

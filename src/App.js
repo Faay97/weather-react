@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <h1 className="mb-5">Weather App</h1>
 
-        <Weather />
+        <Weather defaultCity="Toronto" />
         <footer>
           This project was coded by Favour Umoru and is open-sourced on
           <a

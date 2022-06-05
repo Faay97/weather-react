@@ -27,9 +27,9 @@
   font-weight: 400;
   color: black;
 }
-.Weather img {
+.Weather canvas {
   position: relative;
-  top: -13px;
+  top: 10px;
 }
 .Weather .units {
   font-size: 16px;

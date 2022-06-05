@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="mb-5">Weather App</h1>
+        <h1 className="mb-3">Weather App</h1>
 
         <Weather defaultCity="Toronto" />
         <footer>
@@ -19,6 +19,7 @@ function App() {
             {" "}
             Github
           </a>
+          and hosted on Netlify
         </footer>
       </div>
     </div>

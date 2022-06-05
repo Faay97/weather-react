@@ -22,7 +22,7 @@
   font-size: 16px;
   line-height: 19px;
 }
-.Weather .temp {
+.WeatherUnit .temp {
   font-size: 48px;
   font-weight: 400;
   color: black;
@@ -31,8 +31,11 @@
   position: relative;
   top: 10px;
 }
-.Weather .units {
-  font-size: 16px;
+.WeatherUnit .units {
+  font-size: 14px;
   position: relative;
   top: -22px;
+}
+.WeatherUnit a {
+  text-decoration: none;
 }

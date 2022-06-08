@@ -14,7 +14,7 @@ export default function Weatherinfo(props) {
         </li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
-      <div className="row mt-4">
+      <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
             <WeatherIcon code={props.data.icon} size={50} />{" "}
@@ -23,7 +23,7 @@ export default function Weatherinfo(props) {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 mt-3">
           <ul>
             <li></li>
             <li>Humidity: {Math.round(props.data.humidity)}%</li>

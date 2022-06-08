@@ -19,7 +19,14 @@ function App() {
             {" "}
             Github
           </a>{" "}
-          and hosted on Netlify
+          and hosted on{" "}
+          <a
+            href="https://fastidious-biscuit-2df509.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>

@@ -30,11 +30,11 @@ export default function WeatherUnit(props) {
     let fahrenheit = (props.celsius * 9) / 5 + 32;
     return (
       <div className="WeatherUnit d-inline">
-        <span className="temp">{Math.round(fahrenheit)}</span>{" "}
+        <span className="temp">{Math.round(fahrenheit)}</span>
         <span className="units">
           <a href="/" onClick={showCelsius}>
             °C
-          </a>{" "}
+          </a>
           |°F
         </span>
       </div>
